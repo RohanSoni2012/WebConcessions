@@ -61,6 +61,7 @@ export default function Signup(){
             />
             <button disabled={isLoading}>Sign up</button>
             {error && <div className='error'>{error}</div>}
+            <a id="id1"href="login">Already registered</a>
         </motion.form>
         </motion.div>
     )

@@ -108,17 +108,17 @@ export default function ConcForm(){
             ))}
         </select>
         <label className="lay">To:</label>
-        <input id="default" type="text" value="Govandi" disabled="disabled"></input>
+        <input id="default" type="text" value="Govandi" ></input>
         <label className="lay">via:</label>
         {region==='WR'?<select className="dropbox" name="VIA" onChange={(e)=>setVia(e.target.value)}>
             <option value={"Dadar"}>Dadar</option>
             <option value={"Bandra"}>Bandra</option>
         </select>:region==='CR'? <input
         type='text'
-        value="Kurla" disabled="disabled"
+        value="Kurla" 
         />:<input
         type='text'
-        value="NA" disabled="disabled"
+        value="Kurla" 
         />}
   <legend>Class:</legend>
     <div class="radioo">

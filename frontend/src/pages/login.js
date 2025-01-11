@@ -35,8 +35,13 @@ const Login=()=>{
         />
        <label for="admin" className="switch"></label>
        <p className="Ask">Admin login</p>
-        <button disabled={isLoading} className="Logbtn">Login</button>
+        <button disabled={isLoading} 
+        className="Logbtn">Login</button>
         {error && <div className='error'>{error}</div>}
+        <a id="id1" href="signup">New member</a>
+        
+
+        
     </form>
     )
 }
